@@ -58,6 +58,12 @@ And afterwards you can start using that environment with this command:
 conda activate env_exercise_9
 ```
 
+Furthermore, configure [conda-forge](https://conda-forge.org/) to receive the most-recent updates from the data science community:
+```
+conda config --add channels conda-forge 
+conda config --set channel_priority strict 
+```
+
 **Tip**: It is recommended to create one environment for every project you are executing. 
 In that way installed software libraries and tools cannot harm each other.
 
